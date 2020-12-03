@@ -108,15 +108,15 @@ let myCar = "Jeep";
 
 // Do not edit the code below.
 const spaceship = {
-	fuel: "liquid hydrogen",
-	topSpeed: 36000,
-	fuelLevel: 100,
-	altitude: 0,
+  fuel: "liquid hydrogen",
+  topSpeed: 36000,
+  fuelLevel: 100,
+  altitude: 0,
 };
 
 function launch() {
-	spaceship.fuelLevel -= 30;
-	spaceship.altidude += 1000;
+  spaceship.fuelLevel -= 30;
+  spaceship.altidude += 1000;
 }
 // Do not edit the code above.
 
@@ -138,14 +138,14 @@ function launch() {
 
 // Edit the function called "sum" so that when it is invoked, it returns the sum of its parameters num1 and num2
 
-function sum(num1, num2){
+function sum(num1, num2) {
   return // Code here
 };
-  
 
-  
+
+
 //////////////////PROBLEM 14////////////////////
-  
+
 // Create two variables number1 and number2 and assign them number values
 
 // Code here
@@ -169,7 +169,7 @@ let food = 'pizza';
 // Edit the function favFood so that when it is invoked it returns the string "My favorite food is pizza"
 // In your solution code, use template strings (not concatenation) and use the food variable provided
 
-function favFood(){
+function favFood() {
   return // Code here
 };
 
@@ -186,7 +186,7 @@ let theBoss;
 // Edit the function assignName so that when it is invoked with the variable theName passed in as an argument,
 // the function assigns the value of theName to theBoss variable
 
-function assignName(name){
+function assignName(name) {
   // Code here
 };
 
@@ -206,7 +206,7 @@ let user = {
 // Using the user object provided,
 // edit the function getName so that it accesses the name property of the user object and returns its value
 
-function getName(userObj){
+function getName(userObj) {
   return // Code here
 };
 
@@ -218,7 +218,7 @@ function getName(userObj){
 let calendar = {
   months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
   weekDays: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-  days: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
+  days: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
 }
 // Do not edit the code above.
 
@@ -228,7 +228,7 @@ let calendar = {
 // In your solution, use the correct notation to access the value "Tuesday" and do not simply return the string "Tuesday"
 // Make sure you are accessing it from the weekDays array of the calendar object
 
-function getWeekDay(calendar){
+function getWeekDay(calendar) {
   return // Code here
 }
 
@@ -287,8 +287,8 @@ let lastName = "Jones";
 
 // Create a function called makeExercise that takes two parameters: exerciseName (string) and duration (number)
 // This function should return an object with two key-value pairs:
-  // the first property should be exerciseName with the value of the first parameter
-  // the second property should be duration with the value of the second parameter
+// the first property should be exerciseName with the value of the first parameter
+// the second property should be duration with the value of the second parameter
 
 // Code here
 
@@ -305,7 +305,7 @@ let age = "TBD";
 // Use the if and else keywords in your solution
 // The variable age will be changed during testing
 
-function isOldEnough(){
+function isOldEnough() {
   // Code here
 };
 
@@ -322,7 +322,7 @@ let workEthic = "TBD";
 // Use the if and else keywords in your solution
 // The variable workEthic will be changed during testing
 
-function successPredictor(){
+function successPredictor() {
   // Code here
 };
 
@@ -339,7 +339,7 @@ let cookieType = "TBD";
 // Use the if and else keywords in your solution
 // The variable cookieType will be changed during testing
 
-function eatOrTrash(){
+function eatOrTrash() {
   // Code here
 };
 
@@ -357,7 +357,7 @@ let yourTeamScore = "TBD";
 // Use the if and else keywords in your solution
 // The myTeamScore and yourTeamScore variables will be changed during testing
 
-function finalScore(){
+function finalScore() {
   // Code here
 };
 
@@ -371,14 +371,14 @@ age = "TBD";
 
 
 // Inside the findCorrectTransportation function, write an if/else statement that will check the age variable and return the correct response according to the following criteria:
-  // if age is from 3 to 7, return "tricycle"
-  // if age is from 8 to 15, return "bicycle"
-  // if age is greater than 15, return "car"
+// if age is from 3 to 7, return "tricycle"
+// if age is from 8 to 15, return "bicycle"
+// if age is greater than 15, return "car"
 
 // Use the if and else keywords in your solution
 // The variable age will always be a number and will be changed during testing
 
-function findCorrectTransportation(){
+function findCorrectTransportation() {
   // Code here
 };
 
@@ -393,13 +393,13 @@ let temp = "TBD";
 
 
 // Inside the doIGetIceCream function, write an if/else statement that will check the cash and temp variables and return the correct response according to the following criteria:
-  // if temp is equal to "hot" and money is true, return "Get Ice Cream!"
-  // otherwise return "Save up for another day."
+// if temp is equal to "hot" and money is true, return "Get Ice Cream!"
+// otherwise return "Save up for another day."
 
 // Use the if and else keywords in your solution
 // The variable age will always be a number and will be changed during testing
 
-function doIGetIceCream(){
+function doIGetIceCream() {
   // Code here
 };
 
@@ -419,7 +419,7 @@ let work = "TBD";
 // Use the if and else keywords in your solution
 // The chores and work variables will always be true or false and will be changed during testing
 
-function doIHaveFreeTime(){
+function doIHaveFreeTime() {
   // Code here
 };
 
@@ -441,7 +441,7 @@ let brakes = "TBD";
 // The currentSpeed variables will always be a string and will be changed during testing
 // The brakes variables will always be a boolean and will be changed during testing
 
-function setCrash(){
+function setCrash() {
   // Code here
 };
 
@@ -474,12 +474,12 @@ user = {
 let hunger;
 let fatigue;
 
-function eat(){
+function eat() {
   hunger = "gone";
   return "yum yum";
 }
 
-function sleep(){
+function sleep() {
   fatigue = "gone";
   return "zzz zzz zzz";
 }
@@ -487,12 +487,23 @@ function sleep(){
 
 
 // Write a function called decisionMaker that takes two parameters hungry and tired and and reacts according to the following criteria:
-  // if hungry is true and tired is false, invoke the eat function (provided)
-  // if hungry is false and tired is true, invoke the sleep function (provided)
-  // otherwise, return the string "undecided"
+// if hungry is true and tired is false, invoke the eat function (provided)
+// if hungry is false and tired is true, invoke the sleep function (provided)
+// otherwise, return the string "undecided"
 
 // In your solution, be sure to use the logical NOT operator (bang operator) instead of using true or false keywords
 // Use the if and else keywords in your solution
 // The arguments passed into decisionMaker will always be true or false and will be changed during testing
 
 // Code here
+function decisionMaker(hungry, tired) {
+  if (hungry && !tired) {
+    return eat()
+  }
+  else if (!hungry && tired) {
+    return sleep()
+  }
+  else {
+    return "undecided";
+  }
+}
